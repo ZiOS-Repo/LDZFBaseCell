@@ -1,13 +1,8 @@
-//
-//  IUCell.m
-//  CRJUIComponents
-//
-//  Created by zhuyuhui on 2020/9/17.
-//
 
-#import "IUCell.h"
 
-@implementation IUCell
+#import "LDZFTemplateCell.h"
+
+@implementation LDZFTemplateCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -74,8 +69,8 @@
 }
 
 - (void)delegateEvent {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(IUCell:event:)]) {
-        [self.delegate IUCell:self event:self.data];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(LDZFTemplateCell:event:)]) {
+        [self.delegate LDZFTemplateCell:self event:self.data];
     }
 }
 

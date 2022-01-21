@@ -7,6 +7,6 @@
 
 #ifndef LDZFBaseCell_h
 #define LDZFBaseCell_h
-#import "IUCell.h"
-#import "IUGridCell.h"
+#import "LDZFTemplateCell.h"
+#import "LDZFTemplateGridCell.h"
 #endif /* LDZFBaseCell_h */

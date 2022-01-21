@@ -8,21 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		0575EEB77E7CC96F253878288323CF57 /* Pods-LDZFBaseCell_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62909FBF4C44F9EFF8DDE33232BBD124 /* Pods-LDZFBaseCell_Tests-dummy.m */; };
-		112E97F2B2F10B8E401BC80A9ACC08C9 /* LDZFBaseCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 873DC5A9D3475E2956695EFAC5B5A6D7 /* LDZFBaseCell-dummy.m */; };
-		12CDD879C513906DB6F4AE3F81D1BFAC /* IUCell.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1A6551E81EE7F22C977B086B77EF79 /* IUCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D58C0B3938B3FE07C3020CB26EB9735 /* IUCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B21A15FDD092340ABCD1828B8247A7 /* IUCell.m */; };
-		27BCEDEC17DE894687AA0843166E41D6 /* LDZFBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D5683AE2EBF68F80D3D7DB34CB78FCF1 /* LDZFBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		380C13DA811E77F12C84B39CB38FB7C4 /* Pods-LDZFBaseCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6EB1B96BA183EB92D95FE4BC907E612 /* Pods-LDZFBaseCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EEDB8E6830F740110604499838936C7 /* LDZFTemplateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC51D8835089B029D8DF4084922C839 /* LDZFTemplateCell.m */; };
 		431E6EC34D75F629FA757090FFA2A79B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7922A91A7F51B906DABA1CD13CC8F749 /* IUGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D3AD363B1C233985B9DE4C7E45B0DE /* IUGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EE5E72E4CEE7BD4F562C39A55C51C25 /* IUCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 911D5871683AB05E4E0C548A533A5690 /* IUCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A0728CF329F55296807439F637D62EA /* IUCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C01DFF17B7073CD4A6CD7EC1B112AC /* IUCellData.m */; };
+		4455D9398E4CC65654C80EE18F32CB14 /* LDZFTemplateCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 31FA7C7DAD5942067D3C3475917F7BBD /* LDZFTemplateCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847BE7808275ABC784AD73534065158A /* LDZFTemplateGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 6791341FD0F36000E0AC80E824F763D0 /* LDZFTemplateGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		854C62E7C3F0C3EBFB5F2DF088A21AFF /* LDZFBaseCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 107566825CF68C0403B0C37C677A2825 /* LDZFBaseCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87ED3D8E94E9530434A1CAAB18A652A0 /* LDZFBaseCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54055C79A35DE914E96B2BA287F4DD32 /* LDZFBaseCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DD34039EE7BD154AE7C10D44E6F0E71 /* Pods-LDZFBaseCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D7D2F3DEFA93CB94062D680B30C93A5 /* Pods-LDZFBaseCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94EB1C8B93CF6C0DAA59FAE87538A2DE /* IUGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF90A0A31044EB2744F2F209A6D1BCE /* IUGridCell.m */; };
+		9E61F04B093C0CCD4D1B400B527A69F1 /* LDZFTemplateGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB9B3AFEEBA59AB06401683C71CF5E6 /* LDZFTemplateGridCell.m */; };
 		9EC9AAF5159F7ECCD95C1DDF7FC30ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A269A40F7DAEB5EB6085894956589EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		BC59DF2C2CEEC737FF415F603801FA8C /* LDZFBaseCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1AEA0B6D571EB0C60F5EC26834873E7 /* LDZFBaseCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2394B10B40813F5A4B3F8FC1E27C0D3 /* LDZFTemplateCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 01B665948F7F9505A71AE777B92C795A /* LDZFTemplateCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B55F29869C8D5C88F41950EFFBFEC8AE /* LDZFTemplateCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BDA4EAD73A8D4630D2E87B402659AEF /* LDZFTemplateCellData.m */; };
 		CA1C26B844B62BB9A5EC130038B9F21B /* Pods-LDZFBaseCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC11BD934580153DBB7D965ED217DBB9 /* Pods-LDZFBaseCell_Example-dummy.m */; };
+		E3867F6BC7C7E19BE809D50DD7E5B594 /* LDZFBaseCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D74DF16DBEB4F6FB73456260B470969 /* LDZFBaseCell-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,43 +43,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13F970BDDDBCB9119475400E3D4A81EA /* LDZFBaseCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFBaseCell-prefix.pch"; sourceTree = "<group>"; };
-		1AF90A0A31044EB2744F2F209A6D1BCE /* IUGridCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUGridCell.m; path = LDZFBaseCell/Classes/IUGridCell.m; sourceTree = "<group>"; };
+		01B665948F7F9505A71AE777B92C795A /* LDZFTemplateCellData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFTemplateCellData.h; path = LDZFBaseCell/Classes/LDZFTemplateCellData.h; sourceTree = "<group>"; };
+		107566825CF68C0403B0C37C677A2825 /* LDZFBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFBaseCell.h; path = LDZFBaseCell/Classes/LDZFBaseCell.h; sourceTree = "<group>"; };
 		1BC7202AF1DF3E9EE4CC00B0BF818607 /* Pods-LDZFBaseCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFBaseCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		25D3AD363B1C233985B9DE4C7E45B0DE /* IUGridCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUGridCell.h; path = LDZFBaseCell/Classes/IUGridCell.h; sourceTree = "<group>"; };
-		319542AD3C75C198827FA3F655F99C20 /* LDZFBaseCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LDZFBaseCell.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		2A1831345CCE6C1243DC7D8835B301C8 /* LDZFBaseCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFBaseCell.debug.xcconfig; sourceTree = "<group>"; };
+		2BAA93701E8ED8A872BE17CABCD36CF0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		31FA7C7DAD5942067D3C3475917F7BBD /* LDZFTemplateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFTemplateCell.h; path = LDZFBaseCell/Classes/LDZFTemplateCell.h; sourceTree = "<group>"; };
 		39C3A6E05EAA432C666B8BAF9DE5331D /* Pods-LDZFBaseCell_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Tests-Info.plist"; sourceTree = "<group>"; };
+		3D74DF16DBEB4F6FB73456260B470969 /* LDZFBaseCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFBaseCell-dummy.m"; sourceTree = "<group>"; };
 		3FD2C46A035CA58FCADE3A472443A419 /* Pods-LDZFBaseCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		47B21A15FDD092340ABCD1828B8247A7 /* IUCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUCell.m; path = LDZFBaseCell/Classes/IUCell.m; sourceTree = "<group>"; };
-		4BF00C51A7BDC8BF66F7EB7847772E19 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		52AE0253C28B1DEED0829892AE651A68 /* Pods-LDZFBaseCell_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFBaseCell_Tests"; path = Pods_LDZFBaseCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F5979189B3EE556A3BA716AD533FB1F /* LDZFBaseCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFBaseCell.release.xcconfig; sourceTree = "<group>"; };
+		54055C79A35DE914E96B2BA287F4DD32 /* LDZFBaseCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFBaseCell-umbrella.h"; sourceTree = "<group>"; };
+		5D860D2B1FE696D12D6F0F73D707441A /* LDZFBaseCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFBaseCell.release.xcconfig; sourceTree = "<group>"; };
 		62909FBF4C44F9EFF8DDE33232BBD124 /* Pods-LDZFBaseCell_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFBaseCell_Tests-dummy.m"; sourceTree = "<group>"; };
+		6791341FD0F36000E0AC80E824F763D0 /* LDZFTemplateGridCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFTemplateGridCell.h; path = LDZFBaseCell/Classes/LDZFTemplateGridCell.h; sourceTree = "<group>"; };
 		6B9E4A7599B303F05B44BD133A5A4802 /* Pods-LDZFBaseCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFBaseCell_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6BDA4EAD73A8D4630D2E87B402659AEF /* LDZFTemplateCellData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDZFTemplateCellData.m; path = LDZFBaseCell/Classes/LDZFTemplateCellData.m; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		76449077AF93C6B1BC6FF4BA5D42E2B7 /* LDZFBaseCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LDZFBaseCell.debug.xcconfig; sourceTree = "<group>"; };
 		768035D2693FFA32E8200EFE099A4FB0 /* LDZFBaseCell */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDZFBaseCell; path = LDZFBaseCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F5C3E8B91BDAEB5FC972CEDFBD1864E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		80210A784B2C11569D3C5DBC19F5E841 /* Pods-LDZFBaseCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFBaseCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		82C02B649DF9412C0FE4B48F4E79CE03 /* LDZFBaseCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFBaseCell.modulemap; sourceTree = "<group>"; };
-		873DC5A9D3475E2956695EFAC5B5A6D7 /* LDZFBaseCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFBaseCell-dummy.m"; sourceTree = "<group>"; };
 		8D7D2F3DEFA93CB94062D680B30C93A5 /* Pods-LDZFBaseCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFBaseCell_Example-umbrella.h"; sourceTree = "<group>"; };
 		8E22F1C187E7FAD67D1A928F9C15DD3B /* Pods-LDZFBaseCell_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Example-Info.plist"; sourceTree = "<group>"; };
-		911D5871683AB05E4E0C548A533A5690 /* IUCellData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUCellData.h; path = LDZFBaseCell/Classes/IUCellData.h; sourceTree = "<group>"; };
 		95DCD51994D79E4EC26E87B9C7ED9303 /* Pods-LDZFBaseCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFBaseCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97FC1A52385096EF82838458F9E4CA1E /* Pods-LDZFBaseCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFBaseCell_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B81A89E26AD95A252B84F7B9500CAC0 /* LDZFBaseCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFBaseCell-Info.plist"; sourceTree = "<group>"; };
+		9D6C997BF7879134A20FC7BB3A7F0E3C /* LDZFBaseCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFBaseCell.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED4E0BA5FF5ACF2AA21D60AB9C2E939 /* Pods-LDZFBaseCell_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFBaseCell_Example"; path = Pods_LDZFBaseCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74A44B312E784D83ED3B575D8613732 /* Pods-LDZFBaseCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFBaseCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC11BD934580153DBB7D965ED217DBB9 /* Pods-LDZFBaseCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LDZFBaseCell_Example-dummy.m"; sourceTree = "<group>"; };
 		AD584F5A8F00014C0FC5273340CF615D /* Pods-LDZFBaseCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFBaseCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B1AEA0B6D571EB0C60F5EC26834873E7 /* LDZFBaseCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFBaseCell-umbrella.h"; sourceTree = "<group>"; };
-		CD50A63CABCCF3865E06D195A05C520C /* LDZFBaseCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFBaseCell-Info.plist"; sourceTree = "<group>"; };
+		B7886C3104DF92BA8A768FE8B468162E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CAC51D8835089B029D8DF4084922C839 /* LDZFTemplateCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDZFTemplateCell.m; path = LDZFBaseCell/Classes/LDZFTemplateCell.m; sourceTree = "<group>"; };
 		CE6B09D23CD54E785BA156A40D13B34D /* Pods-LDZFBaseCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5683AE2EBF68F80D3D7DB34CB78FCF1 /* LDZFBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFBaseCell.h; path = LDZFBaseCell/Classes/LDZFBaseCell.h; sourceTree = "<group>"; };
+		CEB9B3AFEEBA59AB06401683C71CF5E6 /* LDZFTemplateGridCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LDZFTemplateGridCell.m; path = LDZFBaseCell/Classes/LDZFTemplateGridCell.m; sourceTree = "<group>"; };
+		D0823D9C39BB7AE973A3B176A7CFE3D0 /* LDZFBaseCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFBaseCell.modulemap; sourceTree = "<group>"; };
 		D6B780C3EC6EC476716E45EBE20FEEF0 /* Pods-LDZFBaseCell_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFBaseCell_Tests.modulemap"; sourceTree = "<group>"; };
-		EB1A6551E81EE7F22C977B086B77EF79 /* IUCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IUCell.h; path = LDZFBaseCell/Classes/IUCell.h; sourceTree = "<group>"; };
-		F3C01DFF17B7073CD4A6CD7EC1B112AC /* IUCellData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IUCellData.m; path = LDZFBaseCell/Classes/IUCellData.m; sourceTree = "<group>"; };
+		F05ED9B3D2B2C0BA42B0FF846B94C646 /* LDZFBaseCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LDZFBaseCell-prefix.pch"; sourceTree = "<group>"; };
 		F65CC196D89A2C043EC492AA37523A4D /* Pods-LDZFBaseCell_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LDZFBaseCell_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F6EB1B96BA183EB92D95FE4BC907E612 /* Pods-LDZFBaseCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFBaseCell_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,19 +112,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3CB273BCD77E33C1D8EA0B964A819C42 /* Support Files */ = {
+		0FF3B906704F32719234A2D9374485A1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				82C02B649DF9412C0FE4B48F4E79CE03 /* LDZFBaseCell.modulemap */,
-				873DC5A9D3475E2956695EFAC5B5A6D7 /* LDZFBaseCell-dummy.m */,
-				CD50A63CABCCF3865E06D195A05C520C /* LDZFBaseCell-Info.plist */,
-				13F970BDDDBCB9119475400E3D4A81EA /* LDZFBaseCell-prefix.pch */,
-				B1AEA0B6D571EB0C60F5EC26834873E7 /* LDZFBaseCell-umbrella.h */,
-				76449077AF93C6B1BC6FF4BA5D42E2B7 /* LDZFBaseCell.debug.xcconfig */,
-				5F5979189B3EE556A3BA716AD533FB1F /* LDZFBaseCell.release.xcconfig */,
+				D0823D9C39BB7AE973A3B176A7CFE3D0 /* LDZFBaseCell.modulemap */,
+				3D74DF16DBEB4F6FB73456260B470969 /* LDZFBaseCell-dummy.m */,
+				9B81A89E26AD95A252B84F7B9500CAC0 /* LDZFBaseCell-Info.plist */,
+				F05ED9B3D2B2C0BA42B0FF846B94C646 /* LDZFBaseCell-prefix.pch */,
+				54055C79A35DE914E96B2BA287F4DD32 /* LDZFBaseCell-umbrella.h */,
+				2A1831345CCE6C1243DC7D8835B301C8 /* LDZFBaseCell.debug.xcconfig */,
+				5D860D2B1FE696D12D6F0F73D707441A /* LDZFBaseCell.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LDZFBaseCell";
+			sourceTree = "<group>";
+		};
+		423282584456CF95E4749F091636C960 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D6C997BF7879134A20FC7BB3A7F0E3C /* LDZFBaseCell.podspec */,
+				B7886C3104DF92BA8A768FE8B468162E /* LICENSE */,
+				2BAA93701E8ED8A872BE17CABCD36CF0 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -143,23 +153,6 @@
 				52AE0253C28B1DEED0829892AE651A68 /* Pods-LDZFBaseCell_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		72E65A2E689313AA6FD9D72F22679440 /* LDZFBaseCell */ = {
-			isa = PBXGroup;
-			children = (
-				EB1A6551E81EE7F22C977B086B77EF79 /* IUCell.h */,
-				47B21A15FDD092340ABCD1828B8247A7 /* IUCell.m */,
-				911D5871683AB05E4E0C548A533A5690 /* IUCellData.h */,
-				F3C01DFF17B7073CD4A6CD7EC1B112AC /* IUCellData.m */,
-				25D3AD363B1C233985B9DE4C7E45B0DE /* IUGridCell.h */,
-				1AF90A0A31044EB2744F2F209A6D1BCE /* IUGridCell.m */,
-				D5683AE2EBF68F80D3D7DB34CB78FCF1 /* LDZFBaseCell.h */,
-				B89551EDCBFEE5BCCAA1A60DF374A829 /* Pod */,
-				3CB273BCD77E33C1D8EA0B964A819C42 /* Support Files */,
-			);
-			name = LDZFBaseCell;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		8F2C37E073F2F9978A3D2282D4406027 /* Pods-LDZFBaseCell_Tests */ = {
@@ -207,19 +200,9 @@
 		A8DA7DB8F5E3C8895FA29B17E7F37382 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				72E65A2E689313AA6FD9D72F22679440 /* LDZFBaseCell */,
+				E53BCCD2C0B6EA103F99A0D8BF699E00 /* LDZFBaseCell */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B89551EDCBFEE5BCCAA1A60DF374A829 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				319542AD3C75C198827FA3F655F99C20 /* LDZFBaseCell.podspec */,
-				4BF00C51A7BDC8BF66F7EB7847772E19 /* LICENSE */,
-				7F5C3E8B91BDAEB5FC972CEDFBD1864E /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -241,6 +224,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E53BCCD2C0B6EA103F99A0D8BF699E00 /* LDZFBaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				107566825CF68C0403B0C37C677A2825 /* LDZFBaseCell.h */,
+				31FA7C7DAD5942067D3C3475917F7BBD /* LDZFTemplateCell.h */,
+				CAC51D8835089B029D8DF4084922C839 /* LDZFTemplateCell.m */,
+				01B665948F7F9505A71AE777B92C795A /* LDZFTemplateCellData.h */,
+				6BDA4EAD73A8D4630D2E87B402659AEF /* LDZFTemplateCellData.m */,
+				6791341FD0F36000E0AC80E824F763D0 /* LDZFTemplateGridCell.h */,
+				CEB9B3AFEEBA59AB06401683C71CF5E6 /* LDZFTemplateGridCell.m */,
+				423282584456CF95E4749F091636C960 /* Pod */,
+				0FF3B906704F32719234A2D9374485A1 /* Support Files */,
+			);
+			name = LDZFBaseCell;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -260,15 +260,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F6056C09EA91E4209ED8F899247A84FF /* Headers */ = {
+		F55B533FDEA7EBAE4A6447CE69F420D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12CDD879C513906DB6F4AE3F81D1BFAC /* IUCell.h in Headers */,
-				7EE5E72E4CEE7BD4F562C39A55C51C25 /* IUCellData.h in Headers */,
-				7922A91A7F51B906DABA1CD13CC8F749 /* IUGridCell.h in Headers */,
-				27BCEDEC17DE894687AA0843166E41D6 /* LDZFBaseCell.h in Headers */,
-				BC59DF2C2CEEC737FF415F603801FA8C /* LDZFBaseCell-umbrella.h in Headers */,
+				854C62E7C3F0C3EBFB5F2DF088A21AFF /* LDZFBaseCell.h in Headers */,
+				87ED3D8E94E9530434A1CAAB18A652A0 /* LDZFBaseCell-umbrella.h in Headers */,
+				4455D9398E4CC65654C80EE18F32CB14 /* LDZFTemplateCell.h in Headers */,
+				B2394B10B40813F5A4B3F8FC1E27C0D3 /* LDZFTemplateCellData.h in Headers */,
+				847BE7808275ABC784AD73534065158A /* LDZFTemplateGridCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,8 +279,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BBA74D3D9884CC6CECEC52A92765BA9 /* Build configuration list for PBXNativeTarget "LDZFBaseCell" */;
 			buildPhases = (
-				F6056C09EA91E4209ED8F899247A84FF /* Headers */,
-				CA2F8AF7FFBA686BD6E5068B0768B3D2 /* Sources */,
+				F55B533FDEA7EBAE4A6447CE69F420D3 /* Headers */,
+				1F2977A35C9CEA099E3ABFC6997FD52A /* Sources */,
 				307F6DDF5EFE7E8084B5501A32098D0A /* Frameworks */,
 				50834D13D23D3FBEC482F9437691675D /* Resources */,
 			);
@@ -401,14 +401,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CA2F8AF7FFBA686BD6E5068B0768B3D2 /* Sources */ = {
+		1F2977A35C9CEA099E3ABFC6997FD52A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D58C0B3938B3FE07C3020CB26EB9735 /* IUCell.m in Sources */,
-				8A0728CF329F55296807439F637D62EA /* IUCellData.m in Sources */,
-				94EB1C8B93CF6C0DAA59FAE87538A2DE /* IUGridCell.m in Sources */,
-				112E97F2B2F10B8E401BC80A9ACC08C9 /* LDZFBaseCell-dummy.m in Sources */,
+				E3867F6BC7C7E19BE809D50DD7E5B594 /* LDZFBaseCell-dummy.m in Sources */,
+				3EEDB8E6830F740110604499838936C7 /* LDZFTemplateCell.m in Sources */,
+				B55F29869C8D5C88F41950EFFBFEC8AE /* LDZFTemplateCellData.m in Sources */,
+				9E61F04B093C0CCD4D1B400B527A69F1 /* LDZFTemplateGridCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +563,7 @@
 		};
 		6833886ADD08CEC87C1CCDDB04D8E3C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76449077AF93C6B1BC6FF4BA5D42E2B7 /* LDZFBaseCell.debug.xcconfig */;
+			baseConfigurationReference = 2A1831345CCE6C1243DC7D8835B301C8 /* LDZFBaseCell.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -625,7 +625,7 @@
 		};
 		B7CE10000E1225A7695D01FCB7B81F34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F5979189B3EE556A3BA716AD533FB1F /* LDZFBaseCell.release.xcconfig */;
+			baseConfigurationReference = 5D860D2B1FE696D12D6F0F73D707441A /* LDZFBaseCell.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -742,7 +742,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

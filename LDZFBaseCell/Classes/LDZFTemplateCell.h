@@ -1,47 +1,41 @@
-//
-//  IUCell.h
-//  CRJUIComponents
-//
-//  Created by zhuyuhui on 2020/9/17.
-//
 
 #import <UIKit/UIKit.h>
-#import "IUCellData.h"
-@class IUCell;
+#import "LDZFTemplateCellData.h"
+@class LDZFTemplateCell;
 
-@protocol IUCellDelegate <NSObject>
+@protocol LDZFTemplateCellDelegate <NSObject>
 
 @optional
 
 /**
- *  IUCell's event.
+ *  LDZFTemplateCell's event.
  *
- *  @param cell  IUCell type class.
+ *  @param cell  LDZFTemplateCell type class.
  *  @param event Event data.
  */
-- (void)IUCell:(IUCell *)cell event:(id)event;
+- (void)LDZFTemplateCell:(LDZFTemplateCell *)cell event:(id)event;
 
 @end
-@interface IUCell : UITableViewCell
+@interface LDZFTemplateCell : UITableViewCell
 #pragma mark - Propeties.
 
 /**
- *  CustomCell's delegate.
+ *  LDZFTemplateCell's delegate.
  */
-@property (nonatomic, weak) id <IUCellDelegate> delegate;
+@property (nonatomic, weak) id <LDZFTemplateCellDelegate> delegate;
 
 /**
- *  CustomCell's dataAdapter.
+ *  LDZFTemplateCell's dataAdapter.
  */
-@property (nonatomic, strong) IUCellData *dataAdapter;
+@property (nonatomic, strong) LDZFTemplateCellData *dataAdapter;
 
 /**
- *  CustomCell's data.
+ *  LDZFTemplateCell's data.
  */
 @property (nonatomic, strong) id data;
 
 /**
- *  CustomCell's indexPath.
+ *  LDZFTemplateCell's indexPath.
  */
 @property (nonatomic, strong) NSIndexPath *indexPath;
 
@@ -121,3 +115,4 @@
  */
 + (void)registerToTableView:(UITableView *)tableView;
 @end
+

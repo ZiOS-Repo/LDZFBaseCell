@@ -1,13 +1,13 @@
 //
-//  IUGridCell.m
+//  LDZFTemplateGridCell.m
 //  CRJUIComponents
 //
 //  Created by zhuyuhui on 2020/9/17.
 //
 
-#import "IUGridCell.h"
+#import "LDZFTemplateGridCell.h"
 
-@implementation IUGridCell
+@implementation LDZFTemplateGridCell
 - (instancetype)initWithFrame:(CGRect)frame {
     
     if (self = [super initWithFrame:frame]) {

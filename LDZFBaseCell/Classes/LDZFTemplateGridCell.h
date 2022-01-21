@@ -1,44 +1,44 @@
 //
-//  IUGridCell.h
+//  LDZFTemplateGridCell.h
 //  CRJUIComponents
 //
 //  Created by zhuyuhui on 2020/9/17.
 //
 
 #import <UIKit/UIKit.h>
-#import "IUCellData.h"
-@class IUGridCell;
+#import "LDZFTemplateCellData.h"
+@class LDZFTemplateGridCell;
 
-@protocol IUGridCellDelegate <NSObject>
+@protocol LDZFTemplateGridCellDelegate <NSObject>
 @optional
 /**
- *  IUGridCell's event.
+ *  LDZFTemplateGridCell's event.
  *
- *  @param cell  IUGridCell
+ *  @param cell  LDZFTemplateGridCell
  *  @param event Event.
  */
-- (void)IUGridCell:(IUGridCell *)cell event:(id)event;
+- (void)LDZFTemplateGridCell:(LDZFTemplateGridCell *)cell event:(id)event;
 
 @end
-@interface IUGridCell : UICollectionViewCell
+@interface LDZFTemplateGridCell : UICollectionViewCell
 
 /**
- *  CustomCollectionCell's delegate.
+ *  LDZFTemplateGridCell's delegate.
  */
-@property (nonatomic, weak) id <IUGridCellDelegate> delegate;
+@property (nonatomic, weak) id <LDZFTemplateGridCellDelegate> delegate;
 
 /**
- *  CustomCell's data.
+ *  LDZFTemplateGridCell's data.
  */
-@property (nonatomic, strong) IUCellData *dataAdapter;
+@property (nonatomic, strong) LDZFTemplateCellData *dataAdapter;
 
 /**
- *  CustomCell's data.
+ *  LDZFTemplateGridCell's data.
  */
 @property (nonatomic, strong) id data;
 
 /**
- *  CustomCell's indexPath.
+ *  LDZFTemplateGridCell's indexPath.
  */
 @property (nonatomic, strong) NSIndexPath *indexPath;
 
@@ -103,3 +103,4 @@
 
 
 @end
+

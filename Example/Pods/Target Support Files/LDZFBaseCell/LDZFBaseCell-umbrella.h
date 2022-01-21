@@ -10,10 +10,10 @@
 #endif
 #endif
 
-#import "IUCell.h"
-#import "IUCellData.h"
-#import "IUGridCell.h"
 #import "LDZFBaseCell.h"
+#import "LDZFTemplateCell.h"
+#import "LDZFTemplateCellData.h"
+#import "LDZFTemplateGridCell.h"
 
 FOUNDATION_EXPORT double LDZFBaseCellVersionNumber;
 FOUNDATION_EXPORT const unsigned char LDZFBaseCellVersionString[];
