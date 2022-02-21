@@ -11,9 +11,9 @@
 #endif
 
 #import "LDZFBaseCell.h"
-#import "LDZFTemplateCell.h"
-#import "LDZFTemplateCellData.h"
-#import "LDZFTemplateGridCell.h"
+#import "LdzfTemplateCell.h"
+#import "LdzfTemplateCellData.h"
+#import "LdzfTemplateGridCell.h"
 
 FOUNDATION_EXPORT double LDZFBaseCellVersionNumber;
 FOUNDATION_EXPORT const unsigned char LDZFBaseCellVersionString[];

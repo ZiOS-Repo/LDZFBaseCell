@@ -1,41 +1,41 @@
 
 #import <UIKit/UIKit.h>
-#import "LDZFTemplateCellData.h"
-@class LDZFTemplateCell;
+#import "LdzfTemplateCellData.h"
+@class LdzfTemplateCell;
 
-@protocol LDZFTemplateCellDelegate <NSObject>
+@protocol LdzfTemplateCellDelegate <NSObject>
 
 @optional
 
 /**
- *  LDZFTemplateCell's event.
+ *  LdzfTemplateCell's event.
  *
- *  @param cell  LDZFTemplateCell type class.
+ *  @param cell  LdzfTemplateCell type class.
  *  @param event Event data.
  */
-- (void)LDZFTemplateCell:(LDZFTemplateCell *)cell event:(id)event;
+- (void)LdzfTemplateCell:(LdzfTemplateCell *)cell event:(id)event;
 
 @end
-@interface LDZFTemplateCell : UITableViewCell
+@interface LdzfTemplateCell : UITableViewCell
 #pragma mark - Propeties.
 
 /**
- *  LDZFTemplateCell's delegate.
+ *  LdzfTemplateCell's delegate.
  */
-@property (nonatomic, weak) id <LDZFTemplateCellDelegate> delegate;
+@property (nonatomic, weak) id <LdzfTemplateCellDelegate> delegate;
 
 /**
- *  LDZFTemplateCell's dataAdapter.
+ *  LdzfTemplateCell's dataAdapter.
  */
-@property (nonatomic, strong) LDZFTemplateCellData *dataAdapter;
+@property (nonatomic, strong) LdzfTemplateCellData *dataAdapter;
 
 /**
- *  LDZFTemplateCell's data.
+ *  LdzfTemplateCell's data.
  */
 @property (nonatomic, strong) id data;
 
 /**
- *  LDZFTemplateCell's indexPath.
+ *  LdzfTemplateCell's indexPath.
  */
 @property (nonatomic, strong) NSIndexPath *indexPath;
 

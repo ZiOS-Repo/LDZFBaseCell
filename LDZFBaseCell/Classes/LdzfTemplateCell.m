@@ -1,8 +1,8 @@
 
 
-#import "LDZFTemplateCell.h"
+#import "LdzfTemplateCell.h"
 
-@implementation LDZFTemplateCell
+@implementation LdzfTemplateCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -52,13 +52,13 @@
 - (void)updateWithNewCellHeight:(CGFloat)height animated:(BOOL)animated {
     if (_tableView && _dataAdapter) {
         if (animated) {
-            _dataAdapter.cellHeight = height;
+            _dataAdapter.height = height;
             [_tableView beginUpdates];
             [_tableView endUpdates];
             
         } else {
             
-            _dataAdapter.cellHeight = height;
+            _dataAdapter.height = height;
             [_tableView reloadData];
         }
     }
@@ -69,8 +69,8 @@
 }
 
 - (void)delegateEvent {
-    if (self.delegate && [self.delegate respondsToSelector:@selector(LDZFTemplateCell:event:)]) {
-        [self.delegate LDZFTemplateCell:self event:self.data];
+    if (self.delegate && [self.delegate respondsToSelector:@selector(LdzfTemplateCell:event:)]) {
+        [self.delegate LdzfTemplateCell:self event:self.data];
     }
 }
 

@@ -4,7 +4,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LDZFTemplateCellData : NSObject
+@interface LdzfTemplateCellData : NSObject
 /// 重用标识符
 @property(nonatomic, copy) NSString *reuseIdentifier;
 
@@ -12,13 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, strong) id data;
 
 /// cell高度
-@property(nonatomic, assign) CGFloat cellHeight;
+@property(nonatomic, assign) CGFloat height;
 
 /// cell宽度
-@property(nonatomic, assign) CGFloat cellWidth;
+@property(nonatomic, assign) CGFloat width;
 
 /// cell类型
-@property(nonatomic, assign) NSInteger cellType;
+@property(nonatomic, assign) NSInteger type;
 
 @end
 

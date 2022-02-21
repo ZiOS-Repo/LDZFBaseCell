@@ -1,5 +1,5 @@
 PODS:
-  - LDZFBaseCell (0.1.0)
+  - LDZFBaseCell (0.1.1)
 
 DEPENDENCIES:
   - LDZFBaseCell (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDZFBaseCell: 928a2678350a3e7a10cf791daccca66d9ea08d45
+  LDZFBaseCell: b74c98058999c785cad8732b884ee00ea3ca29a9
 
 PODFILE CHECKSUM: b437de52b685fb318a7e498886cb261684a05cfc
 
