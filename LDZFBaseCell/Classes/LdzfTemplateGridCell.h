@@ -74,8 +74,21 @@
  */
 - (void)loadContent;
 
+#pragma mark - Display.
 /**
- *  The content offset, override by subclass.
+ *  Will display.
+ */
+- (void)willDisplay;
+
+/**
+ *  Did end display.
+ */
+- (void)didEndDisplay;
+
+/**
+ The contentOffset, you can use this value to do sth.
+
+ @param offset The offset.
  */
 - (void)contentOffset:(CGPoint)offset;
 

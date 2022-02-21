@@ -80,6 +80,27 @@
  */
 + (CGFloat)cellHeightWithData:(id)data;
 
+
+#pragma mark - Display.
+/**
+ *  Will display.
+ */
+- (void)willDisplay;
+
+/**
+ *  Did end display.
+ */
+- (void)didEndDisplay;
+
+/**
+ The contentOffset, you can use this value to do sth.
+
+ @param offset The offset.
+ */
+- (void)contentOffset:(CGPoint)offset;
+
+
+
 #pragma mark - Useful method.
 
 /**

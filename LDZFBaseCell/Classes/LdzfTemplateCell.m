@@ -48,6 +48,21 @@
     return 0.f;
 }
 
+
+#pragma mark - Display.
+- (void)willDisplay {
+    
+}
+
+- (void)didEndDisplay {
+    
+}
+
+- (void)contentOffset:(CGPoint)offset {
+
+}
+
+
 #pragma mark - Useful method.
 - (void)updateWithNewCellHeight:(CGFloat)height animated:(BOOL)animated {
     if (_tableView && _dataAdapter) {
@@ -75,12 +90,10 @@
 }
 
 + (void)registerToTableView:(UITableView *)tableView reuseIdentifier:(NSString *)reuseIdentifier {
-    
     [tableView registerClass:[self class] forCellReuseIdentifier:reuseIdentifier];
 }
 
 + (void)registerToTableView:(UITableView *)tableView {
-    
     [tableView registerClass:[self class] forCellReuseIdentifier:NSStringFromClass([self class])];
 }
 @end

@@ -32,9 +32,19 @@
     
 }
 
-- (void)contentOffset:(CGPoint)offset {
+#pragma mark - Display.
+- (void)willDisplay {
     
 }
+
+- (void)didEndDisplay {
+    
+}
+
+- (void)contentOffset:(CGPoint)offset {
+
+}
+
 #pragma mark - Useful method.
 - (void)selectedEvent {
     

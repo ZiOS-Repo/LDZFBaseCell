@@ -44,7 +44,7 @@
 
 /* Begin PBXFileReference section */
 		1BC7202AF1DF3E9EE4CC00B0BF818607 /* Pods-LDZFBaseCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFBaseCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		235BDCE2EB742BD8E16DC2271C4720C6 /* LDZFBaseCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFBaseCell.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		235BDCE2EB742BD8E16DC2271C4720C6 /* LDZFBaseCell.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LDZFBaseCell.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		39C3A6E05EAA432C666B8BAF9DE5331D /* Pods-LDZFBaseCell_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Tests-Info.plist"; sourceTree = "<group>"; };
 		3FD2C46A035CA58FCADE3A472443A419 /* Pods-LDZFBaseCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		52AE0253C28B1DEED0829892AE651A68 /* Pods-LDZFBaseCell_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFBaseCell_Tests"; path = Pods_LDZFBaseCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,19 +55,19 @@
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7444A7BE3510ECE3951B319E484FDA41 /* LDZFBaseCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LDZFBaseCell.h; path = LDZFBaseCell/Classes/LDZFBaseCell.h; sourceTree = "<group>"; };
 		768035D2693FFA32E8200EFE099A4FB0 /* LDZFBaseCell */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LDZFBaseCell; path = LDZFBaseCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		778E787A0E0737B45A052B93FE340E71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		778E787A0E0737B45A052B93FE340E71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		80210A784B2C11569D3C5DBC19F5E841 /* Pods-LDZFBaseCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFBaseCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8481BE4A90AADC7FF8C71C437C536A6C /* LDZFBaseCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LDZFBaseCell-Info.plist"; sourceTree = "<group>"; };
 		88BC4AA1D395F577BA7E376683FBC494 /* LdzfTemplateCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfTemplateCell.h; path = LDZFBaseCell/Classes/LdzfTemplateCell.h; sourceTree = "<group>"; };
 		891E982D69B45953A4B2E6C42BBD9D3D /* LDZFBaseCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LDZFBaseCell-dummy.m"; sourceTree = "<group>"; };
 		8D7D2F3DEFA93CB94062D680B30C93A5 /* Pods-LDZFBaseCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFBaseCell_Example-umbrella.h"; sourceTree = "<group>"; };
 		8E22F1C187E7FAD67D1A928F9C15DD3B /* Pods-LDZFBaseCell_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFBaseCell_Example-Info.plist"; sourceTree = "<group>"; };
-		8F9ECC049D3FA7BBFDC1B59CE11608A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8F9ECC049D3FA7BBFDC1B59CE11608A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		92885A7767A7EEF9A64A67A854018020 /* LDZFBaseCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LDZFBaseCell.modulemap; sourceTree = "<group>"; };
 		95DCD51994D79E4EC26E87B9C7ED9303 /* Pods-LDZFBaseCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFBaseCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		968032F97C8E4906CA90A555EF4B1137 /* LdzfTemplateGridCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfTemplateGridCell.h; path = LDZFBaseCell/Classes/LdzfTemplateGridCell.h; sourceTree = "<group>"; };
 		97FC1A52385096EF82838458F9E4CA1E /* Pods-LDZFBaseCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LDZFBaseCell_Example.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9ED4E0BA5FF5ACF2AA21D60AB9C2E939 /* Pods-LDZFBaseCell_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFBaseCell_Example"; path = Pods_LDZFBaseCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74A44B312E784D83ED3B575D8613732 /* Pods-LDZFBaseCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LDZFBaseCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A92F717825C76233AE7004532CE4CC6A /* LdzfTemplateCellData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfTemplateCellData.m; path = LDZFBaseCell/Classes/LdzfTemplateCellData.m; sourceTree = "<group>"; };
@@ -742,8 +742,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
