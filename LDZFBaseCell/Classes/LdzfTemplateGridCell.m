@@ -8,6 +8,14 @@
 #import "LdzfTemplateGridCell.h"
 
 @implementation LdzfTemplateGridCell
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    // Initialization code
+    [self setupCell];
+    
+    [self buildSubview];
+}
+
 - (instancetype)initWithFrame:(CGRect)frame {
     
     if (self = [super initWithFrame:frame]) {
